@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Raleway:wght@600&family=Roboto&family=Source+Sans+Pro:wght@600&family=Syncopate:wght@700&display=swap");
+@import url("https://css.gg/arrow-long-up-e.css");
+
+* {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: hsl(229, 80%, 2%);
+}
+
+body {
+  background-color: hsl(229, 80%, 2%);
+  color: white;
+  transition: opacity 1.7s 0.5s;
+  opacity: 0;
+}
+
+header {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  height: 80px;
+  background-color: hsl(229, 78%, 5%);
+  margin-bottom: 1em;
+  box-shadow: 5px 0px 20px 10px black;
+}
+
+header h2 {
+  margin: 0em 2em;
+  font-size: 33px;
+  font-family: "Poppins", sans-serif;
+}
+
+header h2:hover {
+  cursor: pointer;
+}
+
+header p {
+  margin-right: 3em;
+  font-size: 16px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+header p:hover {
+  color: hsl(0, 0%, 60%);
+  cursor: pointer;
+}
+
+header div {
+  display: flex;
+  margin-left: 2em;
+}
+
+.Center {
+  text-align: center;
+  align-items: center;
+}
+
+.Sec1 {
+  opacity: 0;
+}
+
+.Sec1 h1 {
+  font-family: "Syncopate", sans-serif;
+  text-align: center;
+  font-size: 6vw;
+  margin: 1em auto;
+  padding: auto;
+  letter-spacing: 22px;
+  max-width: 90%;
+  transition: opacity 1.7s 1.5s;
+}
+
+.Sec1 img {
+  border-radius: 15px;
+  transition: opacity 1.7s 1.5s;
+}
+
+#MainImg {
+  width: 95%;
+  max-width: 1800px;
+}
+
+.SecD {
+  display: flex;
+  margin: 8em 0.1em;
+}
+
+.ItemSide {
+  width: 50%;
+  border-radius: 15px;
+}
+
+.SecY {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  align-items: stretch;
+}
+
+.ItemSideY {
+  height: 50%;
+  border-radius: 15px;
+}
+
+.ItemText p {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  padding: 0 25%;
+  line-height: 2em;
+  margin-bottom: 15%;
+}
+
+.ItemText h3 {
+  font-family: "Poppins", sans-serif;
+  margin: 1em;
+  font-size: 26px;
+}
+
+.Sec3 {
+  margin: 5em auto;
+  max-width: 400px;
+}
+
+.Sec3 h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 45px;
+}
+
+.CamGrid {
+  display: grid;
+  height: 500px;
+  width: 500px;
+  grid-template-columns: repeat(auto-fill, minmax(40%, 1fr));
+}
+
+.CamGridSlot {
+  width: 50%;
+}
+
+.Arrow {
+  padding: 30px 40px;
+  margin: 0 auto;
+  background-color: #030617;
+  border-radius: 15px;
+  box-shadow: 0px 0px 20px 5px black;
+}
+
+.Arrow:hover {
+  box-shadow: 0px 0px 20px 12px black;
+  background-color: hsl(231, 77%, 8%);
+  cursor: pointer;
+}
+
+.ArrowDiv {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 5em;
+}
+
+footer {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  height: 80px;
+  background-color: hsl(229, 78%, 5%);
+  margin-top: 1em;
+  box-shadow: -5px 0px 20px 10px black;
+}
+
+footer h2 {
+  margin: 0em 2em;
+  font-size: 33px;
+  font-family: "Poppins", sans-serif;
+}
+
+footer p {
+  margin-right: 3em;
+  font-size: 16px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+footer div {
+  display: flex;
+  margin-left: 2em;
+  align-items: center;
+}
+
+footer p:hover {
+  color: hsl(0, 0%, 60%);
+  cursor: pointer;
+}
